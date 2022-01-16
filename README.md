@@ -18,7 +18,8 @@
 
 4 - Minerar SHIB com lolminer
 
-    apt-get update && apt-get install wget && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz && tar -xf lolMiner_v1.42_Lin64.tar.gz && 
+    apt-get update && apt-get install wget && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz && tar -xf lolMiner_v1.42_Lin64.tar.gz && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0x87f55d15705d3ab7368c202c32ddaef68b7486c4.Biga --ethstratum ETHPROXY
+
 
 
 
