@@ -13,7 +13,7 @@
     
 3 - Minerar TON com lolminer
     
-    apt-get update && apt-get install wget && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz && tar -xf lolMiner_v1.42_Lin64.tar.gz && ./lolMiner --coin TON --pool https://server1.whalestonpool.com/ --user EQCXnMI_j0bgwz7_HuSyUDYVYv7q7HarljjyxNVo_rlZE9Hl
+    apt-get update && apt-get install wget && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz && tar -xf lolMiner_v1.42_Lin64.tar.gz && cd 1.42 && ./lolMiner --algo TON --pool https://server1.whalestonpool.com/ --user EQCXnMI_j0bgwz7_HuSyUDYVYv7q7HarljjyxNVo_rlZE9Hl
 
 
 4 - Minerar SHIB com lolminer
